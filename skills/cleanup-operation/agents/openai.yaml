@@ -1,0 +1,6 @@
+interface:
+  display_name: "Cleanup Operation"
+  short_description: "Run a deadline-bound codebase cleanup: untangle, prune tests, zero dead code and duplicates, land every PR"
+  default_prompt: "Use $cleanup-operation to run a full cleanup operation on this codebase."
+policy:
+  allow_implicit_invocation: true
